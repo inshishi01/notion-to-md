@@ -12,7 +12,8 @@
     "prebuild": "npm run clean",
     "clean": "rm -rf ./build",
     "test": "jest",
-    "test:watch": "jest -w"
+    "test:watch": "jest -w",
+    "start": "node api/index.js"
   },
   "keywords": [
     "notion",
